@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     a = [12,3,4,9];
    let x= a.map((e)=>{
        return e+1;
@@ -9,4 +9,23 @@
 
 
    
+</script> -->
+
+
+
+<script>
+    const ob = {
+    name:'prakash',
+    age:23,
+    foo: function (a,b) {
+        console.log(this.name + " " +this.age+ " "+ a +" "+b)
+    }
+}
+const ob1 = {
+    name:'rajeev',
+    age:23,
+
+}
+ob.foo.call(ob1,'nillu', 'chhoti');
+ob.foo.apply(ob1,[['Aarti'],['roshan']]);
 </script>

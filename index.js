@@ -80,3 +80,4 @@ const ob1 = {
 
 }
 ob.foo.call(ob1,'nillu', 'chhoti');
+ob.foo.apply(ob1,[['nillu'],['roshan']]);
